@@ -2,7 +2,9 @@ import tflearn
 import tensorflow as tf
 from utils import tf_utils
 import os
-
+'''
+这个文件写的是输入image到初始1024个稀疏点的点云的网络
+'''
 def basenet(img_inp):
     x = img_inp
     # 224*224

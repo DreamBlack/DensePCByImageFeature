@@ -1,7 +1,9 @@
 import os
 import tensorflow as tf
 
-
+'''
+这个文件使用的是contextDec那篇文章提供的pb文件中的模型，输入image，返回对应的7*7*512的feature
+'''
 def load_frozen_model(pb_path, prefix='', print_nodes=False):
     """
     从pb文件中加载模型，重新恢复模型后，可以通过
