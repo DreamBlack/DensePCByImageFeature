@@ -31,10 +31,10 @@ if __name__=='__main__':
 # def fetch_batch():
 #     # 这里路径名要重新写一下，改成os.path
 #     # path="car_example.png"，如果是和当前文件在同一个文件夹下的文件就可以这么写
-#     # path="data\car_example.png"如果和是在当前文档同文件夹的子文件夹下，可以这么写，但注意最开始没有\
-#     # i_path="C:\Dream\codeworkspace\DensePCByImageFeature\data\car_example.png"
+#     # path="datasets\car_example.png"如果和是在当前文档同文件夹的子文件夹下，可以这么写，但注意最开始没有\
+#     # i_path="C:\Dream\codeworkspace\DensePCByImageFeature\datasets\car_example.png"
 #     directory = path.dirname(__file__)  # file表示当前文件路径包括文件名、所以要获取所在目录要用dirname
-#     img_path = path.join(directory, "data", "car_example.png")  # os.path.join("","","")用于拼接.从第一个\开头的开始拼接，所以不要随便加\
+#     img_path = path.join(directory, "datasets", "car_example.png")  # os.path.join("","","")用于拼接.从第一个\开头的开始拼接，所以不要随便加\
 #     print(img_path)
 #     ip_image = cv2.imread(img_path)
 #     ip_image = cv2.cvtColor(ip_image, cv2.COLOR_BGR2RGB)  # cv2默认读取是BGR，所以要换一下

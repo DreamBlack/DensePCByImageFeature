@@ -2,13 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe17f7ce-c5e6-4093-98f2-7ce00e8ce187" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_generate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_generate/sample_single.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_generate/shapenet_taxonomy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/MyTests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_generate/obj_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_generate/sample_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/rendering_metadata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/renderings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/images/texture8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/models/model_normalized.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/models/model_normalized.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/models/model_normalized.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/models/model_normalized.solid.binvox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/models/model_normalized.surface.binvox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/screenshots/10155655850468db78d106ce0a280f87-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/car_example.png" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/car_example.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generate/sample_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generate/sample_single.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_basenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_basenet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/model_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/tf_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tf_utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,91 +85,49 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="10" />
+          <entry key="obj" value="3" />
+          <entry key="py" value="19" />
+          <entry key="txt" value="8" />
+          <entry key="xyz" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="10" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6221" />
-          <entry key="txt" value="29" />
+          <entry key="dummy" value="13" />
+          <entry key="py" value="9756" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="6221" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Python" value="9756" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/model_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_basenet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <marker date="1576830620563" expanded="true" signature="1762:3177" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_generate/sample_single.py">
+        <entry file="file://$PROJECT_DIR$/data_generate/sample_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+            <state relative-caret-position="217">
+              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1577105002959" expanded="true" signature="71:76" ph="..." />
-                <marker date="1577105002959" expanded="true" signature="567:572" ph="..." />
-                <marker date="1577105002959" expanded="true" signature="1132:1789" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/MyTests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1568201637299" expanded="true" signature="334:514" ph="..." />
-                <marker date="1568201637299" expanded="true" signature="513:514" ph="..." />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +136,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_generate/sample_single.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-88">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -144,6 +175,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>shapenet_id_to_category \= \{\n\'02691156\'\: \'airplane\'\,\n\'02828884\'\: \'bench\'\,\n\'02933112\'\: \'cabinet\'\,\n\'02958343\'\: \'car\'\,\n\'03001627\'\: \'chair\'\,\n\'03211117\'\: \'monitor\'\,\n\'03636649\'\: \'lamp\'\,\n\'03691459\'\: \'speaker\'\,\n\'04090263\'\: \'rifle\'\,\n\'04256520\'\: \'sofa\'\,\n\'04379243\'\: \'table\'\,\n\'04401088\'\: \'telephone\'\,\n\'04530566\'\: \'vessel\'\n\}\n\nshapenet_category_to_id \= \{\n\'airplane\'\	\: \'02691156\'\,\n\'bench\'\	\	\: \'02828884\'\,\n\'cabinet\'\	\: \'02933112\'\,\n\'car\'\	\	\: \'02958343\'\,\n\'chair\'\	\	\: \'03001627\'\,\n\'lamp\'\	\	\: \'03636649\'\,\n\'monitor\'\	\: \'03211117\'\,\n\'rifle\'\	\	\: \'04090263\'\,\n\'sofa\'\	\	\: \'04256520\'\,\n\'speaker\'\	\: \'03691459\'\,\n\'table\'\	\	\: \'04379243\'\,\n\'telephone\'\	\: \'04401088\'\,\n\'vessel\'\	\: \'04530566\'\n\}</find>
+      <find>position-cam_pos</find>
+      <find>f</find>
+      <find>progress</find>
+      <find>camera_info</find>
+      <find>1/1/1</find>
+      <find>parse_face</find>
+      <find>sample_single</find>
+      <find>16384</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,16 +195,22 @@
         <option value="$PROJECT_DIR$/utils/model_utils.py" />
         <option value="$PROJECT_DIR$/utils/tf_utils.py" />
         <option value="$PROJECT_DIR$/utils/MyTests.py" />
-        <option value="$PROJECT_DIR$/train_basenet.py" />
         <option value="$PROJECT_DIR$/data_generate/shapenet_taxonomy.py" />
+        <option value="$PROJECT_DIR$/data_generate/obj_io.py" />
+        <option value="$PROJECT_DIR$/train_basenet.py" />
+        <option value="$PROJECT_DIR$/data_generate/Single_all.py" />
+        <option value="$PROJECT_DIR$/data_generate/Sample_all.py" />
+        <option value="$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/test.txt" />
         <option value="$PROJECT_DIR$/data_generate/sample_single.py" />
+        <option value="$PROJECT_DIR$/data_generate/sample_all.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,6 +232,98 @@
               <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
               <item name="data_generate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="pointcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="pointcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="1024" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="pointcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="1024" type="462c0819:PsiDirectoryNode" />
+              <item name="04530566" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="pointcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="4096" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="pointcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="4096" type="462c0819:PsiDirectoryNode" />
+              <item name="04530566" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNet" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNetRendering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNet" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNetRendering" type="462c0819:PsiDirectoryNode" />
+              <item name="04530566" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNet" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNetRendering" type="462c0819:PsiDirectoryNode" />
+              <item name="04530566" type="462c0819:PsiDirectoryNode" />
+              <item name="10155655850468db78d106ce0a280f87" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNetCorev2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNetCorev2" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNetCore.v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DensePCByImageFeature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DensePCByImageFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNetCorev2" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeNetCore.v2" type="462c0819:PsiDirectoryNode" />
+              <item name="04530566" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -195,11 +332,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../study/CV/python/AttentionDPCR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../study/CV/python/Older/PointSetGeneration-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dream\codeworkspace\DensePCByImageFeature\datasets\ShapeNet\ShapeNetRendering\04530566\10155655850468db78d106ce0a280f87" />
+      <recent name="C:\Dream\codeworkspace\DensePCByImageFeature\data" />
+      <recent name="C:\Dream\codeworkspace\DensePCByImageFeature\data_generate" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dream\codeworkspace\DensePCByImageFeature\datasets\ShapeNetCorev2\ShapeNetCore.v2\04530566" />
+      <recent name="C:\Dream\codeworkspace\DensePCByImageFeature\datasets\ShapeNet\ShapeNetRendering\04530566" />
       <recent name="C:\Dream\codeworkspace\DensePCByImageFeature\pretrained_model" />
       <recent name="C:\Dream\codeworkspace\DensePCByImageFeature" />
       <recent name="C:\Dream\codeworkspace\DensePCByImageFeature\data" />
@@ -217,8 +361,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_basenet">
-    <configuration name="MyTests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sample_all">
+    <configuration name="Sample_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DensePCByImageFeature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,11 +370,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_generate" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/MyTests.py" />
+      <option name="SCRIPT_NAME" value="C:\Dream\codeworkspace\DensePCByImageFeature\data_generate\sample_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,7 +383,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tf_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Single_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DensePCByImageFeature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,11 +391,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_generate" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/tf_utils.py" />
+      <option name="SCRIPT_NAME" value="C:\Dream\codeworkspace\DensePCByImageFeature\data_generate\sample_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,7 +404,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_basenet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sample_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DensePCByImageFeature" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,11 +412,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_generate" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_basenet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_generate/sample_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_single" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DensePCByImageFeature" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_generate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_generate/sample_single.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shapenet_taxonomy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DensePCByImageFeature" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_generate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_generate/shapenet_taxonomy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,15 +468,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.train_basenet" />
-      <item itemvalue="Python.tf_utils" />
-      <item itemvalue="Python.MyTests" />
+      <item itemvalue="Python.sample_single" />
+      <item itemvalue="Python.shapenet_taxonomy" />
+      <item itemvalue="Python.Single_all" />
+      <item itemvalue="Python.Sample_all" />
+      <item itemvalue="Python.sample_all" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train_basenet" />
-        <item itemvalue="Python.MyTests" />
-        <item itemvalue="Python.tf_utils" />
+        <item itemvalue="Python.sample_all" />
+        <item itemvalue="Python.sample_single" />
+        <item itemvalue="Python.Sample_all" />
+        <item itemvalue="Python.Single_all" />
+        <item itemvalue="Python.shapenet_taxonomy" />
       </list>
     </recent_temporary>
   </component>
@@ -316,20 +506,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16182299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33049646" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30212766" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31205675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3328551" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -344,38 +535,20 @@
     <MESSAGE value="添加reg.pb构成的regional feature模块" />
     <option name="LAST_COMMIT_MESSAGE" value="添加reg.pb构成的regional feature模块" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/lib/npyio.py</url>
+          <line>1027</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_generate/shapenet_taxonomy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/model_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MyTests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1568201637299" expanded="true" signature="334:514" ph="..." />
-            <marker date="1568201637299" expanded="true" signature="513:514" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -391,26 +564,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_generate/00.xyz">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/train_basenet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="141">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <marker date="1576830620563" expanded="true" signature="1762:3177" ph="..." />
+            <marker date="1577278998126" expanded="true" signature="1774:3189" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/model_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_generate/shapenet_taxonomy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/model_normalized.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153130">
+          <caret line="49766" column="6" selection-start-line="49766" selection-end-line="49766" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/pointcloud/1024/10.xyz">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/pointcloud/1024/00.xyz">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/pointcloud/1024/01.xyz">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/pointcloud/1024/02.xyz">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/ShapeNetCorev2/ShapeNetCore.v2/04530566/10155655850468db78d106ce0a280f87/models/model_normalized.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/renderings.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/ShapeNet/ShapeNetRendering/04530566/10155655850468db78d106ce0a280f87/rendering/rendering_metadata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MyTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1568201637299" expanded="true" signature="334:514" ph="..." />
+            <marker date="1568201637299" expanded="true" signature="513:514" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="1027" column="68" selection-start-line="1027" selection-start-column="68" selection-end-line="1027" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_generate/obj_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1939">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_generate/sample_single.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        <state relative-caret-position="-88">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1577105002959" expanded="true" signature="71:76" ph="..." />
-            <marker date="1577105002959" expanded="true" signature="567:572" ph="..." />
-            <marker date="1577105002959" expanded="true" signature="1132:1789" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/pointcloud/4096/04530566/10155655850468db78d106ce0a280f87/00.xyz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="4095" column="75" lean-forward="true" selection-start-line="4095" selection-start-column="75" selection-end-line="4095" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/pointcloud/1024/04530566/10155655850468db78d106ce0a280f87/00.xyz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_generate/sample_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
